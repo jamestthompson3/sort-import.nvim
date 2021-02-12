@@ -18,7 +18,7 @@ Using [vim-plug](https://github.com/junegunn/vim-plug)
 `Plug 'jamestthompson3/sort-import.nvim'`
 
 Using [packer.nvim](https://github.com/wbthomason/packer.nvim)
-`use {'jamestthompson3/sort-import.nvim', config = function() require'sort-import.nvim'.setup() end}`
+`use {'jamestthompson3/sort-import.nvim', config = function() require'sort-import'.setup() end}`
 
 Using [dein](https://github.com/Shougo/dein.vim)
 `call dein#add('jamestthompson/sort-import.nvim')`
